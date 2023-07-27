@@ -1,4 +1,12 @@
  body {
     font-family: "Lato", sans-serif;
  }
-      
+ .fruit-5{
+    display: flex;
+    position: relative;
+    bottom: 100px;
+    justify-content: center;
+    background-color: white;
+    
+    
+ }

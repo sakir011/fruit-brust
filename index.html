@@ -12,8 +12,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
  <script>
-  
-        tailwind.config = {
+   tailwind.config = {
           theme: {
             extend: {
               colors: {
@@ -25,8 +24,33 @@
           },
         };
       </script>
+       <style>
+         body {
+    font-family: "Lato", sans-serif;
+ }
+ .fruit-5{
+   justify-content: center;
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    position: relative;
+    bottom: 130px;
+   text-align: center;
+    background-color: white;
+    margin: auto;
+    border-radius: 15px;
+    gap: 10px; 
+    
+}
+@media only screen and (max-width: 600px) {
+  .fruit-5 {
+   display: none;
+  }
+}   
+    
+       </style>
 
-    <title>Document</title>
+    <title>Fruit Brust</title>
 </head>
 <body>
     <nav>
@@ -174,6 +198,28 @@
                   <a href="#slide1" class="btn btn-circle btn-xs md:btn-md">❯</a>
                 </div>
             </div>
+        </div>
+        <div class="fruit-5">
+          <div>
+            <img src="./images/fruit1.png" alt="">
+            <p>Strawberry</p>
+          </div>
+          <div>
+            <img src="./images/fruit2.png" alt="">
+            <p>Orange</p>
+          </div>
+          <div>
+            <img src="./images/fruit3.png" alt="">
+            <p>Mango</p>
+          </div>
+          <div>
+            <img src="./images/fruit4.png" alt="">
+            <p>Strawberry</p>
+          </div>
+          <div>
+            <img src="./images/fruit5.png" alt="">
+            <p>Mango</p>
+          </div>
         </div>
 </header>
 <main class="md:container md:mx-auto px-5 md:px-16">
